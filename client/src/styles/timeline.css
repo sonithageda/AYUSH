@@ -1,0 +1,39 @@
+.timeline {
+    margin-top: 40px;
+  }
+  
+  .timeline-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .timeline-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .step-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-step.active .step-indicator {
+    background-color: #007bff;
+  }
+  
+  .step-label {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .timeline-step.active .step-label {
+    color: #007bff;
+    font-weight: bold;
+  }
